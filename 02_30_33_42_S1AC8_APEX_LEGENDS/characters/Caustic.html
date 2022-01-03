@@ -1,0 +1,203 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Caustic - Toxic Trapper - Apex Legends&trade; Characters</title>
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+<link rel="icon" href="../image/EA logo.png">
+<link href="https://fonts.googleapis.com/css?family=Anton|Fjalla+One|Teko&display=swap" rel="stylesheet">
+<style>
+	#more {display: none;}
+</style>
+</head>
+
+<body>
+	<div class="header">
+		<div class="navbar">
+			<a href="../index.html">HOME</a>
+			<a href="../about us.html">ABOUT US</a>
+			<div class="dropdown">
+				<button onclick="myFunction()" class="dropbtn">LEGENDS</button>
+				<div id="myDropdown" class="dropdown-content">
+					<input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+					<a href="../characters/Bangalore.html">Bangalore</a>
+					<a href="../characters/Bloodhound.html">Bloodhound</a>
+					<a href="../characters/Caustic.html">Caustic</a>
+					<a href="../characters/Crypto.html">Crypto</a>
+	  				<a href="../characters/Gibraltar.html">Gibraltar</a>
+					<a href="../characters/Legends.html">Legends</a>
+	  				<a href="../characters/Lifeline.html">Lifeline</a>
+	  				<a href="../characters/Mirage.html">Mirage</a>
+	  				<a href="../characters/Octane.html">Octane</a>
+	 			 	<a href="../characters/Pathfinder.html">Pathfinder</a>
+	 			 	<a href="../characters/Wattson.html">Wattson</a>
+					<a href="../characters/Wraith.html">Wraith</a>
+				</div>
+			</div>
+			<script>
+				/* When the user clicks on the button,
+				toggle between hiding and showing the dropdown content */
+				function myFunction() {
+					document.getElementById("myDropdown").classList.toggle("show");
+				}
+
+				function filterFunction() {
+					var input, filter, ul, li, a, i;
+					input = document.getElementById("myInput");
+  					filter = input.value.toUpperCase();
+  					div = document.getElementById("myDropdown");
+  					a = div.getElementsByTagName("a");
+					for (i = 0; i < a.length; i++) {
+						txtValue = a[i].textContent || a[i].innerText;
+						if (txtValue.toUpperCase().indexOf(filter) > -1) {
+							a[i].style.display = "";
+						} else {
+							a[i].style.display = "none";
+						}
+					}
+				}
+			</script>
+			<div class="dropdown">
+				<button class="dropbtn">SEASONS</button>
+				<div class="dropdown-content">
+					<a href="../season/season1.html">SEASON 1</a>
+					<a href="../season/season2.html">SEASON 2</a>
+					<a href="../season/season3.html">SEASON 3</a>
+				</div>
+			</div>
+			<a href="../battle pass.html">BATTLE PASS</a>
+			</div>
+		<div style="position: absolute;left: 2%;top: 2%">
+			<a href="../index.html">
+				<img src="../image/apex-white-nav-logo.svg" alt="">
+			</a>
+		</div>
+	</div>
+	<div class="container" style="width: 100%">
+		<div class="contain">
+			<div>
+				<video autoplay loop muted style="position: relative;width: 100%; height: auto">
+					<source src="../media/Caustic/caustic_video.webm" type="video/mp4">
+				</video>
+			</div>
+			<div class="col2">
+				<div>
+					<img src="../image/Caustic/caustic_bg.jpg" alt="" style="width: 100%;height: 90%">
+				</div>
+				<div class="col1" style="position: absolute;top: 100%;left: 50%;font-family: 'Teko', sans-serif">
+					<h4 style="color: black;font-size: 22px">“I don't concern myself with the ambitions of insects.”</h4>
+					<h1 style="color: black;">CAUSTIC</h1>
+					<h3 style="color: black;">Toxic Trapper</h3>
+					<br>
+					<p style="color: black;font-size: 22px;text-align: left">Before there was Caustic, a scientist named Alexander Nox worked at Humbert Labs, the Frontier’s leading manufacturer of pesticide gases. With a glut of pesticides needed to protect the growing Frontier colonies’ crops, Humbert Labs was constantly on the hunt for better and stronger formulas. Nox was one of their brightest scientists and worked day and night developing new gases. But to make sure they worked, he needed to test them on more than just inert tissue: he needed something living.
+						<span id="dots">...</span>
+						<span id="more">As he toiled in secret, Nox began to see the beauty in his creations and their ability to destroy anything they touched. But the head of Humbert Labs soon discovered his gruesome experiments, and their confrontation ended with the lab in flames and its chief dead. Today, Nox is missing and presumed deceased. Caustic, meanwhile, now finds new test subjects in the Apex Games, where he puts his gaseous creations to work and observes their effects with great interest.
+						</span>
+					</p>
+				  <div class="col1" style="position: absolute; top: 69%; right: 0px;"><button onclick="myFunction()" id="myBtn" style="color: red;font-size: 20px; border: 0;">Read More</button></div>
+				  <script>
+						function myFunction() {
+  							var dots = document.getElementById("dots");
+							var moreText = document.getElementById("more");
+							var btnText = document.getElementById("myBtn");
+
+							if (dots.style.display === "none") {
+								dots.style.display = "inline";
+								btnText.innerHTML = "Read more"; 
+								moreText.style.display = "none";
+							} else {
+								dots.style.display = "none";
+								btnText.innerHTML = "Read less"; 
+								moreText.style.display = "inline";
+							}
+						}
+					</script>
+					<br>
+					<table width="300" border="0" cellspacing="10;">
+						<tbody>
+    						<tr>
+      							<td>
+									<h3 style="color: black;text-align: left;font-size: 20px">Real Name</h3>
+								</td>
+								<td>
+									<p style="color: black;text-align: left;font-size: 20px">Alexander Nox</p>
+								</td>
+    						</tr>
+    						<tr>
+     							<td>
+									<h3 style="color: black;text-align: left;font-size: 20px">Age</h3>
+								</td>
+      							<td>
+									<p style="color: black;text-align: left;font-size: 20px">48</p>
+								</td>
+    						</tr>
+    						<tr>
+      							<td>
+									<h3 style="color: black;text-align: left;font-size: 20px">Tactical Ability</h3>
+								</td>
+      							<td>
+									<p style="color: black;text-align: left;font-size: 20px">Nox Gas Trap</p>
+								</td>
+							</tr>	
+							<tr>
+     						    <td>
+									<h3 style="color: black;text-align: left;font-size: 20px">Passive Ability</h3>
+								</td>
+							    <td>
+									<p style="color: black;text-align: left;font-size: 20px">Nox Vision</p>
+								</td>
+    						</tr>
+    						<tr>
+      							<td>
+									<h3 style="color: black;text-align: left;font-size: 20px">Ultimate Ability</h3>
+								</td>
+      							<td>
+									<p style="color: black;text-align: left;font-size: 20px">Nox Gas Grenade</p>
+								</td>
+    						</tr>
+  						</tbody>
+					</table>
+			  	</div>
+			</div>
+			<div class="col1-center" style="background-image: url(../image/legends_abilities_bg.jpg);background-size: cover;position: relative;width: 100%;height: 500px;display: flex;font-family: 'Teko', sans-serif">
+				<div class="col3" style="padding-bottom: 80px;padding-top: 30px">
+					<img src="../image/Caustic/caustic_abilities_tactical.png" alt="" class="image">
+					<div class="data">
+						<h6 style="color: red;">TACTICAL ABILITY</h6>
+						<h3>Nox Gas Trap</h3>
+						<p style="font-size: 20px">Drop canisters that release deadly Nox gas when shot or triggered by enemies.</p>
+					</div>
+				</div>
+				<div class="col3" style="padding-bottom: 80px;padding-top: 30px">
+					<img src="../image/Caustic/caustic_abilities_passive.png" alt="" class="image">
+					<h1>DEATH CERTIFICATE</h1>
+					<div class="data">
+					  <h6 style="color: red;">PASSIVE ABILITY</h6>
+						<h3>Nox Vision</h3>
+						<p style="font-size: 20px">Allows you to see enemies through your gas.</p>
+					</div>
+				</div>
+				<div class="col3" style="padding-bottom: 80px;padding-top: 30px">
+					<img src="../image/Caustic/caustic_abilities_ultimate.png" alt="" class="image">
+					<div class="data">
+						<h6 style="color: red;">ULTIMATE ABILITY</h6>
+						<h3>Nox Gas Grenade</h3>
+						<p style="font-size: 20px">Blankets a large area in Nox gas.</p>
+					</div>
+				</div>
+			</div>
+			<div style="background-color: white; position: relative;width: 100%;height: auto">
+				<iframe style="padding: 60px 15% 120px 15%" width="70%" height="580px" src="https://www.youtube.com/embed/dSz8Dnj1pdI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+			<div class="col1-center" style="position: relative;background-image: url(../image/Caustic/caustic_story_bg.jpg);width: 100%;height: 600px;background-size: cover;color: grey">
+				<h1 style="text-align: center;padding-top: 110px;padding-left: 40%">DEATH CERTIFICATE</h1>
+				<h3 style="text-align: center;padding-left: 15%;padding-right: 15%;padding-top: 30px">Alexander Nox has passed from this world. The circumstances were . . . disturbing.</h3>
+				<span class="button_hover" style="padding-top: 110px;padding-left: 42%;padding-right: 38%;width: 15%">
+					<a href="https://www.ea.com/games/apex-legends/about/characters/caustic/story" style="text-decoration: none;color: grey;font-family: 'Fjalla One', sans-serif;font-size: 20px;display: block;border: 2px solid grey;border-radius: 3px;width: auto;padding: 20px 40px 20px 40px">PREPARE YOURSELF</a>
+				</span>
+			</div>
+		</div>
+	</div>	  
+	<div class="footer" style="font-family: 'Teko', sans-serif;font-size: 20px;">copyright @ 2019 Apex Legends.All right reserved.</div>
+</body>
+</html>
