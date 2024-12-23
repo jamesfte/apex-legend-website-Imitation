@@ -1,5 +1,0 @@
-<link href="https://fonts.googleapis.com/css?family=Anton|Fjalla+One|Teko&display=swap" rel="stylesheet">
-
-font-family: 'Anton', sans-serif;
-font-family: 'Fjalla One', sans-serif;
-font-family: 'Teko', sans-serif;
